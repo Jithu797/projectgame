@@ -1,0 +1,19 @@
+@"
+# Python
+__pycache__/
+*.pyc
+
+# Env / secrets
+.env
+
+# Virtual envs
+.venv/
+venv/
+
+# Tool folders (your project-specific)
+.adk/
+.chakri/
+
+# OS
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
